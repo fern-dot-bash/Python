@@ -1,0 +1,15 @@
+https://www.tutorialspoint.com/generating-random-number-list-in-python
+
+import random
+
+
+def funky():
+    list_one = []
+    for x in range(5):
+        x = random.randint(1, 30) // also x = random.random() ~ for 0.1#
+        list_one.append(x)
+    print(list_one)
+
+
+if __name__ == "__main__":
+    funky()
