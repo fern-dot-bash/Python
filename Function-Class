@@ -1,0 +1,23 @@
+firstname = "hairy"
+lastname = "styles"
+
+class MyClass:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def info(self):
+        print("Hi", self.name, "it says your age is", self.age)
+
+
+p1 = MyClass("John", 35)
+print(p1.name)
+print(p1.age)
+p1.info()
+
+
+
+def function(x, y):
+    print(f"your name is {x} {y}")
+
+function(firstname, lastname)
