@@ -1,0 +1,37 @@
+mport random
+
+
+def funky():
+    list_one = []
+    for x in range(5):
+        x = random.randint(1, 30)
+        list_one.append(x)
+    print(list_one)
+    print(list_one[-1])
+
+
+if __name__ == "__main__":
+    funky()
+ 
+
+or ----------
+
+
+
+import random
+
+
+def funky():
+    list_one = []    for x in range(5):
+        x = random.randint(1, 30)
+        list_one.append(x)
+    print(list_one)
+    print(list_one[-1])
+    sample_string = "i hate everyone"
+    last_char = sample_string[-1]
+    print("Last Character: ", last_char)
+
+
+
+if __name__ == "__main__":
+    funky()
