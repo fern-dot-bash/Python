@@ -1,0 +1,15 @@
+str_1 = "txt"
+num_1 = 3
+
+
+def repeat(x, y):
+    increment = 0
+    while increment < y:
+        increment += 1
+        print(x + x + x)
+        break
+#print(x, y)
+
+
+if __name__ == "__main__":
+    repeat(str_1, num_1)
