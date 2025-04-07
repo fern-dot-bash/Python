@@ -1,0 +1,45 @@
+example:
+
+search_list = []
+
+for x in range(5 + 1):
+    search_list.append(x)
+
+print(search_list)
+
+
+
+example:
+
+search_list = []
+
+search_list.extend(range(1, 1000))
+
+print(search_list)
+
+
+
+
+
+printing the index the name is in the list
+
+
+
+list_a = ["Jim", "Mike", "Devon", "Bob"]
+list_b = ["Hector", "Bob", "Justin"]
+list_c = ["Hector", "Mike", "Justin"]
+
+
+def find_bob(a):
+    try:
+        if "Bob" in list_a:
+            print("Bob name found in index number:")
+            return a.index("Bob")
+    except ValueError:
+        return -1
+
+
+if __name__ == "__main__":
+    print(find_bob(list_a))
+    print(find_bob(list_b))
+    print(find_bob(list_c))
