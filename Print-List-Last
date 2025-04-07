@@ -1,0 +1,97 @@
+first_list = [0, 1, 2, 3, 4]
+second_list = "I am the best person"
+
+
+def last_ind():
+    print(first_list[-1])
+    print(second_list[-1])
+
+
+if __name__ == "__main__":
+    last_ind()
+
+------------------------------------------------------
+
+# initializing list
+
+test_list = [1, 4, 5, 6, 3, 5]
+
+# printing original list
+
+print("The original list is : " + str(test_list))
+
+# First naive method
+
+# using loop method to print last element
+
+for i in range(0, len(test_list)):
+
+    if i == (len(test_list)-1):
+
+        print("The last element of list using loop : "
+
+              + str(test_list[i]))
+
+# Second naive method
+
+# using reverse method to print last element
+
+test_list.reverse()
+
+print("The last element of list using reverse : "
+
+      + str(test_list[0]))
+
+
+
+------------------------------------------------------
+
+Intro to Lists
+
+Lists are a ordered collection of objects in python. It's really simple to understand, and we'll quickly go over the basics. You can create a list multiple ways in python
+
+example = [] # empty list
+example = list() # empty list
+example = [1,2,3] # list with three elements
+example = [0, "zero"] # elements can be of mixed types
+
+Indexing
+
+Indexing just means accessing elements.
+To access elements in a list, you can use the square bracket notation. There are many methods to access elements in python.
+
+Note
+
+python lists are 0-indexed. So the first element is 0, second is 1, so on. So if the there are n elements in a list, the last element is n-1. Remember this!
+
+Single Element Access
+
+You can access single elements using the name followed by a number in []. Like so:
+
+
+
+print example[0] # first element
+print example[1] # second element, so on
+
+You can access the elements at the end by adding a minus. One of the reasons I love python!
+
+print example[-1]  # n-th (last) element. Note it is -1 and not -0 (:P). 
+print example[-2] # n-1-th element
+
+Slicing
+
+Slicing a list gives us another list, instead of a single element. Slicing is an incredibly useful feature in python, one that you will use a lot!
+
+A slice specifies a start index and an end index, and creates and returns a new list based on the indices. The indices are separated by a colon ':'. Keep in mind that the sub-list returned contains only the elements till (end index - 1). For example
+
+example = [1,2,3,4,5] # create a list
+print example[0:5] # Whole list, prints [1,2,3,4,5]
+print example[1:5] # prints [2,3,4,5]
+print example[4:5] # prints [5]
+
+If you leave out the start index, it's assumed to be zero. If you leave out the end index it's assumed to be the length of the list. So:
+
+example = [1,2,3,4,5]
+print example[:5] # treated as example[0:5] -&gt; prints [1,2,3,4,5]
+print example[3:] # treated it as example[3:5] -&gt; prints [4,5]
+print example[:] # treated as example[0:5] -&gt; prints [1,2,3,4,5]
