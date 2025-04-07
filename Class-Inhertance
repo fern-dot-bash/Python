@@ -1,0 +1,59 @@
+class Person:
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def compare_age(self, other):
+
+        if other.age < self.age:
+            print(other.name, "is", self.age)
+            return f'{self.name} is older then me'
+        elif self.age < other.age:
+            return f'{self.name} is younger then me'
+        else:
+            return f"{self.name} is the same age"
+
+
+x = Person("Justin", 25)
+y = Person("Kaitlin", 23)
+z = Person("Hector", 28)
+print(x.compare_age(y))
+
+#print(x.compare_age(23))
+# x.compare_age(23)
+#y = Person("Kaitlin", 23)
+#print(y.compare_age(23))
+# y.compare_age(23)
+#z = Person("Hector", 28)
+#print(z.compare_age(23))
+# z.compare_age(23)
+
+
+# x.compare_age()
+# y.compare_age(Person)
+# z.compare_age(Person)
+ 
+
+
+
+class Player:
+    def __init__(self, name, age, height, weight):
+        self.name = name
+        self.age = age
+        self.height = height
+        self.weight = weight
+
+    def get_age(self):
+        return f"\"{self.name} is age {self.age}\""
+
+    def get_height(self):
+        return self.name + "is", self.height + "cm"
+
+    def get_weight(self):
+        return self.name + "weighs", self.weight + "kg"
+
+
+p1 = Player("David Jones", 25, 175, 75)
+
+print(p1.get_age())
