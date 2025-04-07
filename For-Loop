@@ -1,0 +1,20 @@
+list_people = ["Annie", "Steven", "lisa", "Osman"]
+list_occupation = ['Teacher', 'Engineer', 'Doctor', 'Cashier']
+
+
+def assign_person_to_job(name, jobs):
+    for x in range(4):
+        print(f'{list_people[x]}:{list_occupation[x]}')
+
+
+
+if __name__ == '__main__':
+    assign_person_to_job(list_people, list_occupation)
+ 
+
+
+
+list_1 = [9, 5, 7, 2, 5, 3, 8, 14, 6, 11]
+
+for i in range(0, len(list_1), 2):
+    print(list_1[i])
