@@ -1,0 +1,18 @@
+list_a = ["Jim", "Mike", "Devon", "Bob"]
+list_b = ["Hector", "Bob", "Justin"]
+list_c = ["Hector", "Mike", "Justin"]
+
+
+def find_bob(a):
+    try:
+        if "Bob" in list_a:
+            print("Bob name found in index number:")
+            return a.index("Bob")
+    except ValueError:
+        return -1
+
+
+if __name__ == "__main__":
+    print(find_bob(list_a))
+    print(find_bob(list_b))
+    print(find_bob(list_c))
