@@ -1,0 +1,5 @@
+lamdba_func = lambda m=3, n=4: m < n
+
+print(bool(lamdba_func()))
+
+a function in a straight line.
