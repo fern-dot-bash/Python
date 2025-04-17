@@ -1,0 +1,8 @@
+
+available = False
+
+if available:
+    print("In Stock")
+
+else:
+    print("Out of stock")
