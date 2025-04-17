@@ -2,3 +2,11 @@ if True:
     print("True")
 else:
     print("False")
+
+--------------------------------------------
+
+missing_input = "address"
+no_address = missing_input == "address"
+print(no_address)
+if no_address:
+    print("test")
