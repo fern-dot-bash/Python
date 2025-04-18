@@ -6,7 +6,7 @@ if age > 16 and has_permit:
     print("Can Drive")
 
 
----------------------------------------------------------
+------------------------------------------------
 
 age = 17
 is_insured = True
@@ -14,3 +14,13 @@ has_permit = True
 
 if age > 16 and has_permit and is_insured:
     print("Can Drive")
+
+
+------------------------------------------------
+
+subway_defect = True
+is_sunny = True
+distance = 2
+
+if subway_defect and is_sunny and distance <= 2:
+    print("Walk to work")
