@@ -4,3 +4,11 @@ final_score = 1400
 
 if average_grade == "A" or final_score >= 1300:
     print("You passed!")
+
+--------------------------------------------------
+
+average_grade = "A"
+final_score = 1400
+
+if average_grade == "A" or final_score >= 1500:
+    print("Certificate achieved")
