@@ -4,3 +4,13 @@ has_permit = True
 
 if age > 16 and has_permit:
     print("Can Drive")
+
+
+---------------------------------------------------------
+
+age = 17
+is_insured = True
+has_permit = True
+
+if age > 16 and has_permit and is_insured:
+    print("Can Drive")
