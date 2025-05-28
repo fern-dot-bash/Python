@@ -1,0 +1,5 @@
+print ("Let's play rock, paper, or scissors")
+
+player_choice = input("Choose rock, paper, or scissors: ").lower()
+
+print(player_choice)
