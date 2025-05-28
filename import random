@@ -1,0 +1,9 @@
+import random
+
+print ("Let's play rock, paper, or scissors")
+
+player_choice = input("Choose rock, paper, or scissors: ").lower()
+
+choices = ["rock", "paper", "scissors"]
+
+computer_choice = random.choice(choices)
