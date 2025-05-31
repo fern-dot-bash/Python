@@ -19,3 +19,16 @@ continue
 
   print(f"Processing task {index + 1}")
   index += 1
+
+
+
+
+files = ["file1.txt", "file2.txt", "file3.txt"]
+
+for file in files:
+  if file == "file4.txt":
+    print("File found!")
+    break
+else
+:
+  print("File not found.")
