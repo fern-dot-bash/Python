@@ -18,3 +18,28 @@ continue
 break
 
   print(i)
+
+
+
+
+password = "open_sesame"
+
+while True:
+  if input("Enter the password: ") == password:
+    print("Access granted!")
+    
+break
+
+  print("Incorrect password. Try again.")
+
+
+
+for i in range(1, 11):
+  if i == 5:
+    
+break
+
+  print(i)
+else:
+
+  print("Loop has ended.")
