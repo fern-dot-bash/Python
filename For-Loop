@@ -18,3 +18,14 @@ list_1 = [9, 5, 7, 2, 5, 3, 8, 14, 6, 11]
 
 for i in range(0, len(list_1), 2):
     print(list_1[i])
+
+
+
+shopping_list = ["apples", "bananas", "bread", "milk", "chips", "eggs"]
+
+for item in shopping_list:
+  if item == "chips":
+    
+continue
+
+  print(f"Don't forget to buy: {item}")
