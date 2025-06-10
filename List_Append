@@ -30,3 +30,17 @@ todo = ["call mom", "dishes"]
 todo.pop()
 
 print(todo)
+
+
+todo = ["call mom", "dishes", "painting"]
+todo.pop(1)
+
+print(todo)
+
+
+
+
+
+todo = ["call mom", "dishes", "painting"]
+removed = todo.pop(0)
+print(removed)
