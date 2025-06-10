@@ -1,8 +1,14 @@
 scores = [24, 23]
-scores.
-append
-(
-25
-)
+scores.append(25)
 
 print(scores)
+
+
+
+
+
+
+shopping = ["kiwis", "peas"]
+shopping.insert(0, "lemon")
+
+print(shopping)
