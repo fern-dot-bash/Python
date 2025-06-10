@@ -12,3 +12,12 @@ shopping = ["kiwis", "peas"]
 shopping.insert(0, "lemon")
 
 print(shopping)
+
+
+
+
+
+initials = ["RM", "LP"]
+initials.append("LC")
+initials.insert(1, "LS")
+print(initials)
