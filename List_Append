@@ -1,0 +1,8 @@
+scores = [24, 23]
+scores.
+append
+(
+25
+)
+
+print(scores)
