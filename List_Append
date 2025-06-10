@@ -21,3 +21,12 @@ initials = ["RM", "LP"]
 initials.append("LC")
 initials.insert(1, "LS")
 print(initials)
+
+
+
+
+
+todo = ["call mom", "dishes"]
+todo.pop()
+
+print(todo)
