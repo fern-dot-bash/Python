@@ -1,0 +1,4 @@
+sodas = ["coke", "fanta"]
+
+if len(sodas) > 3:
+  print("Too much soda!")
