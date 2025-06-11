@@ -44,3 +44,11 @@ print(todo)
 todo = ["call mom", "dishes", "painting"]
 removed = todo.pop(0)
 print(removed)
+
+
+
+
+flavors = ["vanilla", "chocolate", "pistachio"]
+flavors[2] = "strawberry"
+
+print(flavors)
