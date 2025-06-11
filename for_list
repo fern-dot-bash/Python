@@ -1,0 +1,12 @@
+final_scores = [17, 22, 34, 13]
+
+for score in final_scores:
+  print(score)
+
+
+
+
+data_points = [99, 99, 99, 99]
+
+for data in data_points:
+  print(data + 1)
