@@ -1,0 +1,15 @@
+scores = [3, 6, 1, 12]
+print(min(scores))
+print(max(scores))
+
+
+
+
+script.py
+scores = [3, 6, 1, 12]
+min_score = min(scores)
+max_score = max(scores)
+
+
+print(max_score)
+print(min_score)
