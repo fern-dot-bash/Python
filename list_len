@@ -1,3 +1,21 @@
 users = ["Sarah", "Mike", "Ella"]
 
 print(len(users))
+
+
+
+
+signups = [30, 6, 20, 12]
+print(sum(signups))
+
+
+
+
+
+
+
+
+scores = [3, 6, 1, 12]
+total=sum(scores)
+
+print(total)
