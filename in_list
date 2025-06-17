@@ -1,0 +1,3 @@
+ingredients = ["flour", "butter", "sugar", "eggs"]
+
+print("sugar" in ingredients)
