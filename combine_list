@@ -4,3 +4,9 @@ dataset_2 = [4, 5]
 combined = dataset_1 + dataset_2
 
 print(combined)
+
+
+
+
+answers = ["yes", "no", "sometimes", "yes", "no"]
+print(answers.count("yes"))
