@@ -1,0 +1,6 @@
+dataset_1 = [1, 2, 3]
+dataset_2 = [4, 5]
+
+combined = dataset_1 + dataset_2
+
+print(combined)
