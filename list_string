@@ -1,0 +1,4 @@
+members = ["Ana", "Joe", "Kim"]
+scores = [57, 60, 32]
+
+print(members + scores)
