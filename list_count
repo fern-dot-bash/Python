@@ -1,2 +1,9 @@
 code = [3, 0, 2, 2, 0, 1, 0]
 print(code.count(0))
+
+
+
+
+
+bought = ["L", "M", "S", "M", "M"]
+print(bought.count("M"))
