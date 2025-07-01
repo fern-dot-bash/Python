@@ -1,3 +1,11 @@
 special = "Today's special is pasta"
 
 new_special = special.replace("pasta","pizza")
+
+
+
+
+
+welcome = "welcome to the company"
+
+print(welcome.replace("the","our"))
