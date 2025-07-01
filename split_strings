@@ -1,0 +1,3 @@
+new_users = "Ann Jon Alex"
+
+users_list = new_users.split()
