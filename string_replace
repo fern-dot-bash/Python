@@ -1,0 +1,3 @@
+special = "Today's special is pasta"
+
+new_special = special.replace("pasta","pizza")
